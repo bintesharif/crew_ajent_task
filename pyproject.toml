@@ -1,7 +1,7 @@
 [project]
-name = "project5"
+name = "dev_flow"
 version = "0.1.0"
-description = "project5 using crewAI"
+description = "Dev_flow using crewAI"
 authors = [{ name = "Your Name", email = "you@example.com" }]
 requires-python = ">=3.10,<3.13"
 dependencies = [
@@ -9,10 +9,10 @@ dependencies = [
 ]
 
 [project.scripts]
-kickoff = "project5.main:kickoff"
-plot = "project5.main:plot"
-multi-ajent = "project5.main1:kickoff"
-
+kickoff = "dev_flow.main:kickoff"
+plot = "dev_flow.main:plot"
+dev-ajent = "dev_flow.main1:kickoff"
+dev-ajent1 = "dev_flow.main2:kickoff"
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
